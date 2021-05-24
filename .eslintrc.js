@@ -1,3 +1,4 @@
+/* eslint-env node */
 const baseExtends = [
   'eslint:recommended',
   'plugin:@typescript-eslint/recommended',
