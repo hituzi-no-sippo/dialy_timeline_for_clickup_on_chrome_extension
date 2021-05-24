@@ -16,5 +16,9 @@
     "vite": "^2.3.3",
     "vue-tsc": "^0.0.24"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.17.0",
+    "yarn": ">=1.22.10"
+  }
 }
