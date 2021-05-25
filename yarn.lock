@@ -180,6 +180,14 @@
   dependencies:
     chalk "^4.0.0"
 
+"@ehutch79/vite-eslint@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@ehutch79/vite-eslint/-/vite-eslint-0.0.1.tgz#53359b3252dc60b115991e4e56331fa49592e6df"
+  integrity sha512-DaQq2xl3KfSTICl+w1bTikGxjwgxdrgF2ow+eIv9MDUzeYZUvb35nnsKy9KOAb5idMTemDtwQueJ5XxP0STrAg==
+  dependencies:
+    "@rollup/pluginutils" "^4.0.0"
+    eslint "^7.17.0"
+
 "@eslint/eslintrc@^0.4.1":
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-0.4.1.tgz#442763b88cecbe3ee0ec7ca6d6dd6168550cbf14"
@@ -215,6 +223,14 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
+
+"@rollup/pluginutils@^4.0.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.1.0.tgz#0dcc61c780e39257554feb7f77207dceca13c838"
+  integrity sha512-TrBhfJkFxA+ER+ew2U2/fHbebhLT/l/2pRk0hfj9KusXUuRXd2v0R58AfaZK9VXDQ4TogOSEmICVrQAA3zFnHQ==
+  dependencies:
+    estree-walker "^2.0.1"
+    picomatch "^2.2.2"
 
 "@types/json-schema@^7.0.3":
   version "7.0.7"
@@ -889,7 +905,7 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.1.0.tgz#f65328259305927392c938ed44eb0a5c9b2bd303"
   integrity sha512-0rSmRBzXgDzIsD6mGdJgevzgezI534Cer5L/vyMX0kHzT/jiB43jRhd9YUlMGYLQy2zprNmoT8qasCGtY+QaKw==
 
-eslint@^7.27.0:
+eslint@^7.17.0, eslint@^7.27.0:
   version "7.27.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.27.0.tgz#665a1506d8f95655c9274d84bd78f7166b07e9c7"
   integrity sha512-JZuR6La2ZF0UD384lcbnd0Cgg6QJjiCwhMD6eU4h/VGPcVGwawNNzKU41tgokGXnfjOOyI6QIffthhJTPzzuRA==
@@ -1851,7 +1867,7 @@ path-type@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
-picomatch@^2.2.1, picomatch@^2.2.3:
+picomatch@^2.2.1, picomatch@^2.2.2, picomatch@^2.2.3:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
   integrity sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==

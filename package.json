@@ -17,6 +17,7 @@
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
+    "@ehutch79/vite-eslint": "^0.0.1",
     "@typescript-eslint/eslint-plugin": "^4.24.0",
     "@typescript-eslint/parser": "^4.24.0",
     "@vitejs/plugin-vue": "^1.2.2",
