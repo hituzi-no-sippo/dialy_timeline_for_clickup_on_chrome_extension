@@ -1,6 +1,9 @@
 /* eslint-env node */
 module.exports = {
   "*.{js,ts,vue}": [
-    "yarn lint"
+    "yarn lint:script",
+  ],
+  "src/**/*.{ts,vue}": [
+    () => "yarn lint:type:app"
   ],
 }

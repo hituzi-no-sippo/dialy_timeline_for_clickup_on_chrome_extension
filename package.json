@@ -3,10 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "yarn lint:type:app && vite build",
     "serve": "vite preview",
     "lint:script": "eslint --cache --ext \".js,.ts,.vue\" --ignore-path .gitignore --max-warnings 0 .",
-    "lint": "yarn lint:script",
+    "lint:type:app": "vue-tsc --noEmit",
+    "lint": "yarn lint:script; yarn lint:type:app",
     "fix:script": "yarn lint:script --fix",
     "fix": "yarn fix:script",
     "prepare": "husky install"
