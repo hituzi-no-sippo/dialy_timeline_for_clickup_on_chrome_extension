@@ -6,4 +6,7 @@ module.exports = {
   "src/**/*.{ts,vue}": [
     () => "yarn lint:type:app"
   ],
+  "cypress/**/*.ts": [
+    () => "yarn lint:type:test"
+  ],
 }

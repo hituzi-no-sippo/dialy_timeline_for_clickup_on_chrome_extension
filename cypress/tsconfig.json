@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom"],
+    "types": ["cypress"]
+  },
+  "include": [
+    "../node_modules/cypress",
+    "**/*.ts"
+  ]
+}
