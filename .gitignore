@@ -153,4 +153,7 @@ tags
 # Persistent undo
 [._]*.un~
 
-
+# cypress
+cypress/downloads
+cypress/screenshots
+cypress/videos
