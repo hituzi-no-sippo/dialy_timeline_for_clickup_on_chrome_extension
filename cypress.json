@@ -2,7 +2,8 @@
   "baseUrl": "http://localhost:3000",
   "experimentalStudio": true,
   "fixturesFolder": false,
-  "pluginsFile": false,
-  "supportFile": false,
-  "testFiles": "*.ts"
+  "testFiles": "*.ts",
+  "cypress-watch-and-reload": {
+    "watch": ["src/**/*.{vue,ts}"]
+  }
 }
