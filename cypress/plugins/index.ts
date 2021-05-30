@@ -1,8 +1,13 @@
 import 'cypress-watch-and-reload/plugins'
+import { startDevServer } from '@cypress/vite-dev-server'
 
 /**
  * @type {Cypress.PluginConfig}
  */
-// The `pluginsFile` must export a function
-// eslint-disable-next-line @typescript-eslint/no-empty-function
-module.exports = () => {}
+module.exports = (on, config) => {
+  on('dev-server:start', async (options) => {
+    return startDevServer({ options })
+  })
+
+  return config
+}
