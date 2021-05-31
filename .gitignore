@@ -154,6 +154,7 @@ tags
 [._]*.un~
 
 # cypress
+cypress/**/*.js
 cypress/downloads
 cypress/screenshots
 cypress/videos
