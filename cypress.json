@@ -1,4 +1,7 @@
 {
   "baseUrl": "http://localhost:3000",
-  "experimentalStudio": true
+  "experimentalStudio": true,
+  "fixturesFolder": false,
+  "pluginsFile": false,
+  "supportFile": false
 }
