@@ -3,5 +3,6 @@
   "experimentalStudio": true,
   "fixturesFolder": false,
   "pluginsFile": false,
-  "supportFile": false
+  "supportFile": false,
+  "testFiles": "*.ts"
 }
