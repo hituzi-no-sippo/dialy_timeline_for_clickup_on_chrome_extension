@@ -9,4 +9,8 @@ module.exports = {
   "cypress/**/*.ts": [
     () => "yarn lint:type:test"
   ],
+  "cypress/integration/*.ts": [
+    (files) => 'sh start-dev-server-and-test.sh ' +
+               `'yarn test:e2e:run --spec ${files.join(",")}'`
+  ]
 }
