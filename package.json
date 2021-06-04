@@ -15,7 +15,9 @@
     "test:e2e": "sh start-dev-server-and-test.sh 'yarn test:e2e:run'",
     "test:e2e:run": "cypress run --browser chrome --headless",
     "test:e2e:open-gui-dashboard": "sh start-dev-server-and-test.sh 'cypress open'",
-    "test": "yarn test:e2e",
+    "test:component": "cypress run-ct --browser chrome --headless",
+    "test:component:open-gui-dashboard": "cypress open-ct",
+    "test": "run-s test:component test:e2e ",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -24,6 +26,8 @@
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
+    "@cypress/vite-dev-server": "^1.2.7",
+    "@cypress/vue": "3.0.1",
     "@ehutch79/vite-eslint": "^0.0.1",
     "@typescript-eslint/eslint-plugin": "^4.24.0",
     "@typescript-eslint/parser": "^4.24.0",

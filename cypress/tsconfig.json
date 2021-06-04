@@ -4,10 +4,12 @@
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
+    "esModuleInterop": true,
     "lib": ["esnext", "dom"],
     "types": ["cypress"]
   },
   "include": [
+    "../src/shims-vue.d.ts",
     "../node_modules/cypress",
     "**/*.ts"
   ]
