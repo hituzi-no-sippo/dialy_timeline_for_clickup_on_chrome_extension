@@ -158,3 +158,6 @@ cypress/**/*.js
 cypress/downloads
 cypress/screenshots
 cypress/videos
+
+# chrome extension
+extension

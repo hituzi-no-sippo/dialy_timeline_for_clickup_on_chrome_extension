@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Dialy Timeline for Clickup",
+  "description": "Dialy timeline for Clickup",
+  "version": "0.0.0",
+  "action": {},
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}

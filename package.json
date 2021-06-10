@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "yarn lint:type:app && vite-ssg build",
+    "prebuild": "yarn lint:type:app",
+    "build": "vite-ssg build",
+    "postbuild": "cp extension/manifest.json extension/background.js dist && rm -rf extension && mv dist extension",
     "serve": "vite preview",
     "lint:script": "eslint --cache --ext \".js,.ts,.vue\" --ignore-path .gitignore --max-warnings 0 .",
     "lint:type:app": "vue-tsc --noEmit",
